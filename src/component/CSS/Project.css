@@ -1,0 +1,119 @@
+#project p {
+  
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4em;
+  /* font-family: "Old Standard TT", serif; */
+  font-family: NeueHaasGroteskDisp Pro;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.829);
+  width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.project {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: -1;
+}
+.links{
+  text-transform: uppercase;
+  color: rgb(0, 153, 255) ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+.projectOne{
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+display: flex;
+  text-align: center;
+}
+.projectOne h1{
+  text-transform: uppercase;
+  font-family: NeueHaasGroteskDisp Pro;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(11, 175, 240);
+  margin-bottom: 0;
+}
+.projectOne h2{
+  font-size: 20px;
+  
+  color: rgb(11, 175, 240);
+}
+ .projectOne p{
+   text-transform: uppercase;
+line-height: 2em;
+width: 60%;
+letter-spacing: 0.1em;
+font-family: NeueHaasGroteskDisp Pro;
+font-size: 18px;
+}
+button {
+  margin-top: 10em;
+  border-radius: 5em;
+  margin-left: auto;
+  margin-bottom: 4em;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 100;
+  padding-left: 3.5em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  padding-right: 3.5em;
+  display: flex;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+button:hover {
+  color: rgb(255, 255, 255);
+  background: black;
+}
+
+
+@media (max-width: 600px) {
+ 
+  h1 {
+    font-size: 3em;
+  }
+  button {
+    margin-top: 4em;
+    margin-bottom: 0em;
+  }
+}
+@media(max-width:600px){
+  #project p{
+    font-size: 2em;
+  }
+  .projectOne p{
+            
+    width: 80%;
+    font-size: 12px;
+  }
+  
+}
+@media(max-width:500px){
+    #project p{
+    font-size: 1.4em;
+  }
+ 
+}
+@media(max-width:300px){
+  #project p{
+    font-size: 1.6em;
+  }
+}

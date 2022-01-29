@@ -1,0 +1,74 @@
+.contact_title{
+        letter-spacing: 0.1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 4em;
+        font-family: NeueHaasGroteskDisp Pro;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.829);
+        width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+      
+}
+.contact_grap{
+        word-spacing: 5px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 4em;
+        /* font-family: "Old Standard TT", serif; */
+        font-family: NeueHaasGroteskDisp Pro;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.829);
+        width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+}
+.contact_grap span{
+        color: rgb(0, 153, 255);
+        text-transform: lowercase;
+}
+.buttons{
+        display: flex;
+        color: black;
+        text-decoration: none;
+        flex-wrap: wrap;
+}
+.buttons a{
+        color: black;
+        text-decoration: none;
+}
+
+.buttons .contact_buttons{
+        
+        border-radius: 5em;
+        margin-left: auto;
+      
+        margin-right: auto;
+        font-size: 1em;
+        font-weight: 100;
+        padding-left: 3.5em;
+     
+        padding-right: 3.5em;
+        display: flex;
+        border: 1px solid black;
+        color: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+      }
+      @media(max-width:991px){
+        .contact_grap{
+                font-size: 1.8em;
+        }
+      }
+      @media(max-width:500px){
+        .contact_grap{
+                font-size: 1.2em;
+        }
+        .contact_title{
+                font-size: 2em;
+        }
+      }

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+::selection{
+    color: rgb(0, 132, 255);
+}

@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around !important;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+.footer p{
+   font-size: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: NeueHaasGroteskDisp Pro;
+
+}
+.footer div p{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: NeueHaasGroteskDisp Pro;
+}
+.footer div p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: NeueHaasGroteskDisp Pro;
+}
+@media (max-width:500px){
+  .footer{
+      flex-direction: column-reverse;
+      margin-top: 2em;
+  }
+}

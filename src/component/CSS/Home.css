@@ -1,0 +1,197 @@
+@import url("//db.onlinewebfonts.com/c/6f6cbe877ab89b84810628a5a5f892d0?family=NeueHaasGroteskDisp+Pro");
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap'); 
+
+::selection {
+  color: rgb(11, 175, 240);
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+section{
+
+  text-align: center;
+align-content: center;
+/* padding-top:5px ; */
+  display: flex;
+  position: relative;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+z-index: -1;
+}
+
+section .about_content{
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: center;
+  font-family: NeueHaasGroteskDisp Pro;
+font-weight: 100;
+  width: 80%;
+  color: rgb(0, 0, 0);
+cursor: default; 
+
+margin-bottom: 2em;
+}
+section .about_content2{
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-size: 8em;
+  text-align: center;
+  font-family: NeueHaasGroteskDisp Pro;
+font-weight: 100;
+  width: 80%;
+  color: rgb(0, 0, 0);
+cursor: default; 
+
+margin-bottom: 2em;
+}
+section .about_content span .resume{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(11, 175, 240);
+
+}
+section .about_content span a:hover{
+ color: rgba(11, 175, 240, 0.658);
+}
+section .about_content span a::selection{
+  color: black;
+}
+section img{
+max-width: 400px;
+}
+
+@media(max-width:600px){
+  section .about_content{
+    font-size: 1.4em;
+  }
+  
+}
+@media(max-width:500px){
+  section .about_content{
+    font-size: 1.2em;
+  }
+  section img{
+    max-width: 180px;
+    }
+}
+@media(max-width:300px){
+  section .about_content{
+    font-size: 1em;
+  }
+}
+
+
+.skill_favo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill_favo .skill_favo_stack ul{
+  padding-left: 0;
+}
+.skill_favo .skill_favo_stack ul li:nth-child(1){
+  text-align: center;
+  color: rgba(11, 175, 240, 0.658);
+  font-size: 5em;
+  list-style: none;
+  font-weight: 100;
+  font-family: NeueHaasGroteskDisp Pro;
+  }
+.skill_favo .skill_favo_stack ul li{
+text-align: center;
+font-size: 5em;
+list-style: none;
+font-weight: 100;
+font-family: NeueHaasGroteskDisp Pro;
+}
+.skill_favo .skill_favo_things h3{
+  text-transform: uppercase;
+  font-size: 4em;
+  width: 80%;
+  text-align: center;
+  font-family: NeueHaasGroteskDisp Pro;
+  font-weight: 200;
+}
+
+
+.buttonDiv .button {
+ 
+  border-radius: 5em;
+ padding-top: 15px;
+ padding-bottom: 15px;
+  text-align: center;
+  width: 300px;
+
+  font-weight: 100;
+  justify-content: center;
+font-size: 25px;
+font-family: NeueHaasGroteskDisp Pro;
+  text-decoration: none;
+  display: flex;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+.buttonDiv .button:hover {
+  color: rgb(255, 255, 255);
+  background: black;
+}
+
+@media (max-width: 800px) {
+  .skill_favo .skill_favo_stack ul li:nth-child(1){
+    text-align: center;
+    color: rgba(11, 175, 240, 0.658);
+    font-size: 4em;
+    list-style: none;
+    font-weight: 100;
+    font-family: NeueHaasGroteskDisp Pro;
+    }
+  .skill_favo .skill_favo_stack ul li{
+  text-align: center;
+  font-size: 4em;
+  list-style: none;
+  font-weight: 100;
+  font-family: NeueHaasGroteskDisp Pro;
+  }
+}
+@media (max-width: 600px) {
+  .buttonDiv .button{
+    font-size: 15px;
+    width: 150px;
+  }
+  .skill_favo{
+    flex-direction: column;
+  }
+ 
+  h1 {
+    font-size: 3em;
+  }
+  .button {
+    margin-top: 4em;
+    margin-bottom: 0em;
+  }
+  .skill_favo .skill_favo_stack ul li{
+    text-align: center;
+    font-size: 2em;
+ 
+    }
+    .skill_favo .skill_favo_stack ul li:nth-child(1){
+      font-size: 2em;
+    }
+}
+@media (max-width: 500px){
+  .skill_favo .skill_favo_stack ul li{
+   
+    font-size: 1.2em;
+ 
+    }
+    .skill_favo .skill_favo_stack ul li:nth-child(1){
+      font-size:1.2em;
+    }
+}
