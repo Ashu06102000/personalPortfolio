@@ -22,13 +22,13 @@
         font-size: 4em;
         /* font-family: "Old Standard TT", serif; */
         font-family: NeueHaasGroteskDisp Pro;
-        font-weight: 100;
+        font-weight: 300;
         color: rgba(0, 0, 0, 0.829);
         width: 90%;
        margin-left: auto;
        margin-right: auto;
 }
-.contact_grap span{
+.contact_grap a{
         color: rgb(0, 153, 255);
         text-transform: lowercase;
 }

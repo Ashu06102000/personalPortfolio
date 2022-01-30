@@ -30,7 +30,7 @@ section .about_content{
   font-size: 4em;
   text-align: center;
   font-family: NeueHaasGroteskDisp Pro;
-font-weight: 100;
+font-weight: 300;
   width: 80%;
   color: rgb(0, 0, 0);
 cursor: default; 
@@ -53,7 +53,7 @@ margin-bottom: 2em;
 section .about_content span .resume{
   cursor: pointer;
   text-decoration: none;
-  color: rgb(11, 175, 240);
+  color: rgb(0, 183, 255);
 
 }
 section .about_content span a:hover{
@@ -68,13 +68,13 @@ max-width: 400px;
 
 @media(max-width:600px){
   section .about_content{
-    font-size: 1.4em;
+    font-size: 1.9em;
   }
   
 }
 @media(max-width:500px){
   section .about_content{
-    font-size: 1.2em;
+    font-size: 1.6em;
   }
   section img{
     max-width: 180px;
@@ -82,7 +82,7 @@ max-width: 400px;
 }
 @media(max-width:300px){
   section .about_content{
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -97,7 +97,7 @@ max-width: 400px;
 }
 .skill_favo .skill_favo_stack ul li:nth-child(1){
   text-align: center;
-  color: rgba(11, 175, 240, 0.658);
+  color: rgb(11, 175, 240);
   font-size: 5em;
   list-style: none;
   font-weight: 100;
@@ -188,10 +188,10 @@ font-family: NeueHaasGroteskDisp Pro;
 @media (max-width: 500px){
   .skill_favo .skill_favo_stack ul li{
    
-    font-size: 1.2em;
+    font-size: 1.6em;
  
     }
     .skill_favo .skill_favo_stack ul li:nth-child(1){
-      font-size:1.2em;
+      font-size:1.6em;
     }
 }

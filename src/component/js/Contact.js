@@ -12,7 +12,7 @@ export default function Contact({ mode }) {
         contact
       </h1>
 
-      <p className="contact_grap"  style={{ color: mode === "white" ? "black" : "white" }}>i would like to hear you are intersted in contact me <br />send me an e-mail on <br /> <span>yash6102000thakur@gmail.com</span></p>
+      <p className="contact_grap"  style={{ color: mode === "white" ? "black" : "white" }}>i would like to hear you are intersted in contact me <br />send me an e-mail on <br /> <a  href="mailto:yash6102000thakur@gmail.com">yash6102000thakur@gmail.com</a></p>
       <div className="buttons">
         <button className="contact_buttons" onClick={() => console.log("hire me")}>
           {" "}

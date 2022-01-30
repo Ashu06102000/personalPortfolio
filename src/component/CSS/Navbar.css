@@ -75,7 +75,7 @@ header .menu_link img {
   right: 0;
   text-align: center;
 background: rgb(0, 153, 255);
-
+height: 80vh;
   padding-left: 0;
   margin-top: 40px;
 }

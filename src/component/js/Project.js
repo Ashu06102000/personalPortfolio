@@ -22,6 +22,7 @@ export default function Project({ mode }) {
        <h1    className="projectOne_h1">News Web Application</h1>
        <p style={{ color: mode === "white" ? "black" : "white" }} > A simple news web-app which render news on real-time of each caterogy like General , health , science ... etc. by using  News Api which is  a open source API for developer </p>
      </div>
+     <a  target="_blank" rel="noreferrer" className="links"  href="https://github.com/Ashu06102000/NewsWeb">details</a>
      <div className="projectOne">
      <h2    className="projectOne_h2"> 3 | 5</h2>
        <h1    className="projectOne_h1">Cryptoency</h1>
