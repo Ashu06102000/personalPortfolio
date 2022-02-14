@@ -7,7 +7,7 @@
   font-size: 4em;
   /* font-family: "Old Standard TT", serif; */
   font-family: NeueHaasGroteskDisp Pro;
-  font-weight: 100;
+  /* font-weight: 100; */
   color: rgba(0, 0, 0, 0.829);
   width: 90%;
  margin-left: auto;
@@ -45,7 +45,7 @@ display: flex;
   text-transform: uppercase;
   font-family: NeueHaasGroteskDisp Pro;
   font-size: 25px;
-  font-weight: 400;
+  /* font-weight: 400; */
   color: rgb(11, 175, 240);
   margin-bottom: 0;
 }
@@ -69,7 +69,7 @@ button {
   margin-bottom: 4em;
   margin-right: auto;
   font-size: 1em;
-  font-weight: 100;
+  /* font-weight: 100; */
   padding-left: 3.5em;
   padding-top: 1.2em;
   padding-bottom: 1.2em;
@@ -81,7 +81,7 @@ button {
 }
 button:hover {
   color: rgb(255, 255, 255);
-  background: black;
+  
 }
 
 
@@ -96,11 +96,17 @@ button:hover {
   }
 }
 @media(max-width:600px){
+  #project{
+    margin-top: 40px;
+  }
   #project p{
     font-size: 2em;
   }
+  .projectOne{
+    margin-top: 40px;
+  }
   .projectOne p{
-            
+           
     width: 80%;
     font-size: 12px;
   }

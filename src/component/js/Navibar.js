@@ -15,11 +15,7 @@ export default function Navibar({ mode, toggleMode }) {
    setcursorX(e.pageX)
    setcursorY(e.pageY)
  })
-    // const cursor = document.querySelector('cursor');
-    // document.addEventListener('mousemove',(e)=>{
-    //   cursor.style.left = e.pageX + 'px';
-    //   cursor.style.top = e.pageY + 'px';
-    // })
+   
   
  
  
@@ -72,7 +68,7 @@ export default function Navibar({ mode, toggleMode }) {
             </Link>
             <div
              className="cursor"
-              style={{ background: mode === "white" ? "black" : "white" ,color: mode === "black" ? "white" : "black",left:cursorX + 'px',
+              style={{ background: mode === "white" ? "transparent" : "white" ,color: mode === "black" ? "white" : "black",left:cursorX + 'px',
             top:cursorY + 'px'}}
            
             ></div>

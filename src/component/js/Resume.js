@@ -16,7 +16,7 @@ function Resume({ mode }) {
           rel="noreferrer"
           href="https://drive.google.com/file/d/1rO2oHHONlxWSBz2mAWdYSPkUTYBU3S4I/view?usp=sharing"
         >
-          download here ↓
+          Click Me
         </a>
       </div>
     </div>
