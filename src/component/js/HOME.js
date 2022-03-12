@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "D:/portfolio/portfolio/src/component/CSS/Home.css";
+import "../CSS/Home.css"
 import profile from "../images/ashish.jpeg";
 import { Link } from "react-router-dom";
 
